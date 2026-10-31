@@ -1,0 +1,52 @@
+$kind: http-example
+request:
+  url: http://localhost:3000/events/0fc9b685-0c99-4027-918b-b3ea1facc62a
+  method: PUT
+  body:
+    type: json
+    content: "{\r
+
+      \  \"eventTypeCode\": \"birthday\",\r
+
+      \  \"startDatetime\": \"2026-07-15T19:30:00Z\",\r
+
+      \  \"description\": \"Surprise birthday party for Alex and his best
+      friends.\",\r
+
+      \  \"address\": \"789 Maple Avenue, Los Angeles, CA 90001\",\r
+
+      \  \"confirmedAttendees\": 45\r
+
+      }"
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    x-powered-by: Express
+    access-control-allow-origin: "*"
+    content-type: application/json; charset=utf-8
+    content-length: "470"
+    etag: W/"1d6-DBEvWKxr7m6uqHchXHlaXekHmCc"
+    date: Wed, 24 Jun 2026 07:42:15 GMT
+    connection: keep-alive
+    keep-alive: timeout=5
+  body:
+    type: json
+    content: |-
+      {
+        "code": "0fc9b685-0c99-4027-918b-b3ea1facc62a",
+        "eventTypeCode": "birthday",
+        "startDatetime": "2026-07-15T19:30:00.000Z",
+        "description": "Surprise birthday party for Alex and his best friends.",
+        "address": "789 Maple Avenue, Los Angeles, CA 90001",
+        "confirmedAttendees": 45,
+        "createdAt": "2026-06-24T07:40:56.000Z",
+        "updatedAt": "2026-06-24T07:42:15.000Z",
+        "eventType": {
+          "code": "birthday",
+          "name": "Birthday",
+          "createdAt": "2026-06-24T07:08:48.000Z",
+          "updatedAt": "2026-06-24T07:08:48.000Z"
+        }
+      }
+order: 3061800563753907

@@ -1,0 +1,38 @@
+$kind: http-example
+request:
+  url: http://localhost:3000/events/7b990910-29ef-410f-a4c8-8eed33535b90
+  method: DELETE
+  body:
+    type: json
+    content: "{\r
+
+      \  \"eventTypeCode\": \"birthday\",\r
+
+      \  \"startDatetime\": \"2026-07-15T19:30:00Z\",\r
+
+      \  \"description\": \"Surprise birthday party for Sarah with family and close friends.\",\r
+
+      \  \"address\": \"789 Maple Avenue, Los Angeles, CA 90001\",\r
+
+      \  \"confirmedAttendees\": 45\r
+
+      }"
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    x-powered-by: Express
+    access-control-allow-origin: "*"
+    content-type: application/json; charset=utf-8
+    content-length: "16"
+    etag: W/"10-oV4hJxRVSENxc/wX8+mA4/Pe4tA"
+    date: Wed, 24 Jun 2026 07:40:37 GMT
+    connection: keep-alive
+    keep-alive: timeout=5
+  body:
+    type: json
+    content: |-
+      {
+        "success": true
+      }
+order: 4200304271814227

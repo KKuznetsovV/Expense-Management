@@ -1,0 +1,36 @@
+$kind: http-example
+request:
+  url: http://localhost:3000/events/8c1bf412-6f9b-11f1-97d9-364a86aff69a
+  method: GET
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    x-powered-by: Express
+    access-control-allow-origin: "*"
+    content-type: application/json; charset=utf-8
+    content-length: "425"
+    etag: W/"1a9-F4Y2ZfEFs6gu7Bk4DMONruCnr68"
+    date: Wed, 24 Jun 2026 07:56:16 GMT
+    connection: keep-alive
+    keep-alive: timeout=5
+  body:
+    type: json
+    content: |-
+      {
+        "code": "8c1bf412-6f9b-11f1-97d9-364a86aff69a",
+        "eventTypeCode": "wedding",
+        "startDatetime": "2026-07-24T07:08:48.000Z",
+        "description": "John and Jane wedding ceremony",
+        "address": "Tel Aviv, HaYarkon 5",
+        "confirmedAttendees": 120,
+        "createdAt": "2026-06-24T07:08:48.000Z",
+        "updatedAt": "2026-06-24T07:08:48.000Z",
+        "eventType": {
+          "code": "wedding",
+          "name": "Wedding",
+          "createdAt": "2026-06-24T07:08:48.000Z",
+          "updatedAt": "2026-06-24T07:08:48.000Z"
+        }
+      }
+order: 2758807291594677

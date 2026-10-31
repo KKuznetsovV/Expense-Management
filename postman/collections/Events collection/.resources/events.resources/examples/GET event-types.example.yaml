@@ -1,0 +1,52 @@
+$kind: http-example
+request:
+  url: http://localhost:3000/event-types
+  method: GET
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    x-powered-by: Express
+    access-control-allow-origin: "*"
+    content-type: application/json; charset=utf-8
+    content-length: "587"
+    etag: W/"24b-BCNN4JD9E0SJsIAbCS5Tdk3aR+I"
+    date: Wed, 24 Jun 2026 07:55:24 GMT
+    connection: keep-alive
+    keep-alive: timeout=5
+  body:
+    type: json
+    content: |-
+      [
+        {
+          "code": "birthday",
+          "name": "Birthday",
+          "createdAt": "2026-06-24T07:08:48.000Z",
+          "updatedAt": "2026-06-24T07:08:48.000Z"
+        },
+        {
+          "code": "company_event",
+          "name": "Company Event",
+          "createdAt": "2026-06-24T07:08:48.000Z",
+          "updatedAt": "2026-06-24T07:08:48.000Z"
+        },
+        {
+          "code": "conference",
+          "name": "Conference",
+          "createdAt": "2026-06-24T07:08:48.000Z",
+          "updatedAt": "2026-06-24T07:08:48.000Z"
+        },
+        {
+          "code": "party",
+          "name": "Party",
+          "createdAt": "2026-06-24T07:08:48.000Z",
+          "updatedAt": "2026-06-24T07:08:48.000Z"
+        },
+        {
+          "code": "wedding",
+          "name": "Wedding",
+          "createdAt": "2026-06-24T07:08:48.000Z",
+          "updatedAt": "2026-06-24T07:08:48.000Z"
+        }
+      ]
+order: 1961092517497381

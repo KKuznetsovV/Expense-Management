@@ -1,0 +1,103 @@
+$kind: http-example
+name: GET events/all
+request:
+  url: http://localhost:3000/events/all
+  method: GET
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    x-powered-by: Express
+    access-control-allow-origin: "*"
+    content-type: application/json; charset=utf-8
+    content-length: "2138"
+    etag: W/"85a-cEbeB26UVKJXW9RXNosQvxQ8ZoQ"
+    date: Wed, 24 Jun 2026 07:18:10 GMT
+    connection: keep-alive
+    keep-alive: timeout=5
+  body:
+    type: json
+    content: |-
+      [
+        {
+          "code": "8c1bf412-6f9b-11f1-97d9-364a86aff69a",
+          "eventTypeCode": "wedding",
+          "startDatetime": "2026-07-24T07:08:48.000Z",
+          "description": "John and Jane wedding ceremony",
+          "address": "Tel Aviv, HaYarkon 5",
+          "confirmedAttendees": 120,
+          "createdAt": "2026-06-24T07:08:48.000Z",
+          "updatedAt": "2026-06-24T07:08:48.000Z",
+          "eventType": {
+            "code": "wedding",
+            "name": "Wedding",
+            "createdAt": "2026-06-24T07:08:48.000Z",
+            "updatedAt": "2026-06-24T07:08:48.000Z"
+          }
+        },
+        {
+          "code": "8c1bf5e4-6f9b-11f1-97d9-364a86aff69a",
+          "eventTypeCode": "conference",
+          "startDatetime": "2026-07-01T07:08:48.000Z",
+          "description": "Annual Tech Summit 2026",
+          "address": "Jerusalem Convention Center",
+          "confirmedAttendees": 300,
+          "createdAt": "2026-06-24T07:08:48.000Z",
+          "updatedAt": "2026-06-24T07:08:48.000Z",
+          "eventType": {
+            "code": "conference",
+            "name": "Conference",
+            "createdAt": "2026-06-24T07:08:48.000Z",
+            "updatedAt": "2026-06-24T07:08:48.000Z"
+          }
+        },
+        {
+          "code": "8c1bf648-6f9b-11f1-97d9-364a86aff69a",
+          "eventTypeCode": "party",
+          "startDatetime": "2026-06-14T07:08:48.000Z",
+          "description": "Summer beach party",
+          "address": "Herzliya Marina",
+          "confirmedAttendees": 80,
+          "createdAt": "2026-06-24T07:08:48.000Z",
+          "updatedAt": "2026-06-24T07:08:48.000Z",
+          "eventType": {
+            "code": "party",
+            "name": "Party",
+            "createdAt": "2026-06-24T07:08:48.000Z",
+            "updatedAt": "2026-06-24T07:08:48.000Z"
+          }
+        },
+        {
+          "code": "8c1bf687-6f9b-11f1-97d9-364a86aff69a",
+          "eventTypeCode": "birthday",
+          "startDatetime": "2026-07-08T07:08:48.000Z",
+          "description": "David 30th birthday celebration",
+          "address": "Ramat Gan, Bar St 12",
+          "confirmedAttendees": 50,
+          "createdAt": "2026-06-24T07:08:48.000Z",
+          "updatedAt": "2026-06-24T07:08:48.000Z",
+          "eventType": {
+            "code": "birthday",
+            "name": "Birthday",
+            "createdAt": "2026-06-24T07:08:48.000Z",
+            "updatedAt": "2026-06-24T07:08:48.000Z"
+          }
+        },
+        {
+          "code": "8c1bf6bd-6f9b-11f1-97d9-364a86aff69a",
+          "eventTypeCode": "company_event",
+          "startDatetime": "2026-06-19T07:08:48.000Z",
+          "description": "Q2 company all-hands meeting",
+          "address": "Petah Tikva HiTech Park",
+          "confirmedAttendees": 200,
+          "createdAt": "2026-06-24T07:08:48.000Z",
+          "updatedAt": "2026-06-24T07:08:48.000Z",
+          "eventType": {
+            "code": "company_event",
+            "name": "Company Event",
+            "createdAt": "2026-06-24T07:08:48.000Z",
+            "updatedAt": "2026-06-24T07:08:48.000Z"
+          }
+        }
+      ]
+order: 1782285497871
